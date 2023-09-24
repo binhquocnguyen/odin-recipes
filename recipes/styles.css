@@ -1,0 +1,89 @@
+body {
+    font-family: "Courier New", "Lucida Console", sans-serif;
+    box-sizing: border-box;
+    background-color: #fffdf1;
+    margin: 0;
+}  
+/* Headers and Images */
+h1, h2, h3, p, .single-a {
+    text-align: center;
+}
+h1 {
+    background-color: #abac7f;
+    color: #373d20;
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    /* Box */
+    height: auto; 
+    padding: 30px;
+    margin-top: 0;
+}
+img {
+    display: block;
+    height: 400px;
+    width: auto;
+    margin: 50px auto;
+    border: 5px solid #080808;
+}
+h2, h3 {
+    color: #717744;
+    text-align: center;
+    /* Box */
+    margin-top: 50px;    
+    margin-bottom: 8px;
+    
+}
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+h3 {
+    font-size: 24px;
+    font-style: italic;
+    /* Box */
+    margin: 6px auto;
+}
+/* Texts */
+p, li {
+    color: #080808;
+    font-size: 16px;
+    /* Box */
+    width: 50%;
+    margin: 0 auto;
+    padding: 3px;
+}
+li {
+    text-align: left;
+}
+ul, ol {
+    /* Push-up */
+    margin-top: -2px;
+}
+.ingredients {
+    width: 60%;
+    margin: 0 auto;
+}
+/* Links */
+a {
+    color: #373d20;
+    text-decoration: none;
+}
+a:hover {
+    color: #6f1a07;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.single-a {
+    font-weight: bold;
+    font-size: 20px;
+}
+.nav-links {
+    list-style-type: none;
+    background-color: #abac7f;
+    /* Box */
+    display: flex;
+    height: auto; 
+    padding: 30px;
+    margin-bottom: 0;
+}

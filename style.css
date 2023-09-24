@@ -1,0 +1,44 @@
+body {
+    font-family: "Courier New", "Lucida Console", sans-serif;
+    background-color: #fffdf1;
+    margin: 0;
+}
+h1 {
+    background-color: #abac7f;
+    color: #373d20;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    /* Box Styling */
+    box-sizing: border-box;
+    height: auto; 
+    margin-top: 0;
+    padding: 30px;
+}
+a {
+    color: #373d20;
+    font-size: 18px;
+    text-decoration: none;
+}
+a:hover {
+    color: #6f1a07;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#and-more {
+    color: #717744;
+}
+.menu {
+    border: 1px red solid;
+}
+ul {
+    background-color: #e1dabd;
+    list-style-type: none;
+    /* Box */
+    box-sizing: border-box;
+    border: 4px solid #717744;
+    border-radius: 20px;
+    width: 30%;
+    margin: 50px auto;
+    padding: 30px 50px 35px;
+}
